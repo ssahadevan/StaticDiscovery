@@ -1,0 +1,19 @@
+{
+    "swagger": "2.0",
+    "info": {
+        "version": "1.0.0",
+        "title": "petstore"
+    },
+    "host": "editor.swagger.io",
+    "paths": {
+        "/pet": {
+            "get": {
+                "responses": {
+                    "200": {
+                        "description": "Return all pets"
+                    }
+                }
+            }
+        }
+    }
+}
