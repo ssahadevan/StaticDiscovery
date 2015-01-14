@@ -1,0 +1,47 @@
+{
+    "swagger": "2.0",
+    "info": {
+        "version": "1",
+        "title": "My Test",
+        "termsOfService": "internal use only",
+        "contact": {
+            "name": "Sharath Sahadvan",
+            "email": "apisupport@mastercard.com"
+        },
+        "license": {
+            "name": "Apache 2.0",
+            "url": "http://www.apache.org/licenses/LICENSE-2.0.html"
+        }
+    },
+    "host": "ech-10-157-131-64.mastercard.int:7910",
+    "basePath": "/hello/resources",
+    "schemes": [
+        "http"
+    ],
+    "produces": [
+        "text/plain",
+        "text/xml"
+    ],
+    "paths": {
+        "/get": {
+            "get": {
+                "description": "Greeting from Service .",
+                "responses": {
+                    "200": {
+                        "description": "Successful response"
+                    }
+                }
+            }
+        },
+        "/pet": {
+            "get": {
+                "description": "List of Pets.",
+                "responses": {
+                    "200": {
+                        "description": "Successful response"
+                    }
+                }
+            }
+        }
+    }
+}

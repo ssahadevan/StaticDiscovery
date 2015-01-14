@@ -1,0 +1,18 @@
+{
+  "swaggerVersion": "2.0",
+    "basePath": "http://ech-10-157-131-64.mastercard.int:7910/hello",
+   "apis": [
+    {
+      "path": "/resources/pet",
+      "operations": [
+        {
+          "method": "GET",
+          "summary": "List of Pets!",
+          "type": "xml",
+          "produces": [ "text/xml" ],
+          "nickname": "pet"   
+        }
+      ]
+    }
+  ]
+}

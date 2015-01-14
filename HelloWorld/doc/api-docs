@@ -1,0 +1,15 @@
+{
+  "swaggerVersion": "2.0",
+  "apis": [
+    {
+       "path": "http://ech-10-157-131-64.mastercard.int:7910/hello/doc/resources/get",
+      "description": "Hello World."
+    },
+    {
+       "path": "http://ech-10-157-131-64.mastercard.int:7910/hello/doc/resources/pet",
+      "description": "List the Pets."
+    }
+  ]
+}
+
+
