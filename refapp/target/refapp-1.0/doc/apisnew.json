@@ -1,0 +1,76 @@
+{
+    "swagger": "2.0",
+    "info": {
+        "title": "MasterCard API Repository ( Beta)",
+        "description": "Find out about the  API Implementations here",
+        "version": "1.0.0",
+        "contact": {
+            "name": "apienablement_support@mastercard.com"
+        }
+    },
+    "host": "ech-10-157-131-64.mastercard.int:7910",
+    "basePath": "/refapp-1.0/resources",
+    "schemes": [
+        "http",
+        "https"
+    ],
+    "paths": {
+        "/offers": {
+            "get": {
+                "summary": "Get all the offers",
+                "description": "Domain - Offers",
+                "tags": [
+                    "Status:Production",
+                    "Domain:Offers"
+                ],
+                "produces": [
+                    "text/xml"
+                ],
+                "operationId": "getOffers",
+                "responses": {
+                    "200": {
+                        "description": "Return relevant offers to the user"
+                    }
+                }
+            }
+        },
+        "/payments": {
+            "get": {
+                "summary": "Get all the Payment Transactions",
+                "description": "Domain - Payments",
+                "tags": [
+                    "Status:Production",
+                    "Domain:payments"
+                ],
+                "produces": [
+                    "text/xml"
+                ],
+                "operationId": "getPayments",
+                "responses": {
+                    "200": {
+                        "description": "Return all Payments"
+                    }
+                }
+            }
+        },
+        "/products": {
+            "get": {
+                "summary": "Get all the products",
+                "description": "Domain - Products",
+                "tags": [
+                    "Status:Development",
+                    "Domain:Products"
+                ],
+                "produces": [
+                    "text/xml"
+                ],
+                "operationId": "getProducts",
+                "responses": {
+                    "200": {
+                        "description": "Return List of Products"
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,18 @@
+{
+  "swaggerVersion": "2.0",
+    "basePath": "http://ech-10-157-131-64.mastercard.int:7910/refapp-1.0",
+   "apis": [
+    {
+      "path": "/resources/offers",
+      "operations": [
+        {
+          "method": "GET",
+          "summary": "List of Offers!",
+          "type": "xml",
+          "produces": [ "text/xml" ],
+          "nickname": "offers"   
+        }
+      ]
+    }
+  ]
+}

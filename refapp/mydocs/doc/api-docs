@@ -1,0 +1,19 @@
+{
+  "swaggerVersion": "2.0",
+  "apis": [
+    {
+       "path": "http://ech-10-157-131-64.mastercard.int:7910/refapp-1.0/doc/resources/offers",
+      "description": "List of Offers."
+    },
+    {
+       "path": "http://ech-10-157-131-64.mastercard.int:7910/refapp-1.0/doc/resources/payments",
+      "description": "List of payment transactions."
+    },
+    {
+       "path": "http://ech-10-157-131-64.mastercard.int:7910/refapp-1.0/doc/resources/products",
+      "description": "List of Products."
+    }
+  ]
+}
+
+
